@@ -5,19 +5,31 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 .header {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .logo {
-    float: left;
+    height: auto;
+    flex: 1;
 }
 
-.account {
-    float: right;
+.contact-info {
+
+}
+
+.left-header {
+    flex: 2;
 }
